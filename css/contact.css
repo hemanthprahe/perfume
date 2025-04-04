@@ -1,0 +1,121 @@
+.contact{
+    padding: 80px 0 80px 0;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+    /* background-color: orange; */
+}
+
+.middle-contact h1::first-letter{
+    color: blueviolet;
+}
+.middle-contact p{
+    position: relative;
+    
+    
+}
+.middle-contact p::after{
+    position: absolute;
+    background-color: #000000;
+    content: "";
+    height: 2px;
+    width: 150px;
+}
+
+.left-contact{
+    width: 498px;
+height: 697px;
+border-radius: 26px;
+
+}
+.middle-contact{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    padding: 30px 0;
+    /* align-items: center; */
+    
+  
+}
+.middle-contact h1{
+    font-family: Bona Nova;
+font-weight: 700;
+font-size: 54px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.middle-contact h3{
+    font-family: Sofia Sans;
+font-weight: 400;
+font-size: 29px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.middle-contact button{
+    font-family: Bona Nova;
+font-weight: 700;
+font-size: 25px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+background-color: black;
+}
+.contact-name{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.contact-name p{
+    position: relative;
+
+}
+
+.contact-name p::after{
+    position: absolute;
+    background-color: #514f4f;
+    content: "";
+    height: 2px;
+    width: 400px;
+
+}
+.contact-name button{
+    border: 0;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+#contact-u{
+    font-size: 70px;
+}
+
+.contact-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.right-contact{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 100px;
+    padding: 120px 0;
+    
+}
+.right-contact h1{
+    font-family: Sofia Sans;
+font-weight: 700;
+font-size: 32px;
+line-height: 120%;
+letter-spacing: 0%;
+}
+.right-contact h4{
+    font-family: Sofia Sans;
+font-weight: 300;
+font-size: 32px;
+line-height: 120%;
+letter-spacing: 0%;
+opacity: 0.8;
+
+}

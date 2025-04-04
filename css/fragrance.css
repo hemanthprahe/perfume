@@ -1,0 +1,115 @@
+
+.fragsection{
+    padding: 140px 0 10px 0;
+    /* background-color: yellow; */
+}
+.fragsection h1{
+ font-size: 60px;
+ display: flex;
+ justify-content: center;
+}
+.fragsection p{
+    position: relative;
+}
+
+.fragsection p::after{
+    position:absolute;
+    content: "";
+    height: 3px;
+    width: 500px;
+    background-color: black;
+    left: 600px;
+    margin-top: 10px;
+}
+.fragdetails{
+    display: flex;
+    justify-content: space-between;
+    padding: 160px 0;
+    /* background-color: blueviolet; */
+}
+.notes-right p{
+    position: relative;
+}
+
+.notes-right p::after{
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width: 120px;
+    content: "";
+}
+.flavor-left{
+    /* width: 100px; */
+    width: 326px;
+height: 484px;
+display: flex;
+flex-direction: column;
+gap: 30px;
+/* background-color: yellow; */
+
+
+}
+
+.flavor-left h2{
+    font-size: 45px;
+}
+.flavor-left h3{
+    position: relative;
+}
+
+.flavor-left h3::after{
+    position: absolute;
+    background-color: black;
+    height: 3px;
+    width: 160px;
+    content: "";
+
+}
+
+.flavor-left p{
+    /* width: 700px; */
+    font-size: 25px;
+}
+.img-centre{
+    overflow: hidden;
+    /* background-color: orange; */
+
+    
+    
+    
+}
+.img-centre img{
+    
+    /* border: 0; */
+    /* box-sizing: border-box; */
+    /* box-sizing: border-box; */
+    /* overflow:hidden; */
+    object-fit: cover;
+    /* width: 100%;
+    height: 100%; */
+    border-radius: 45%;
+    height: 550px; 
+    width: 350px;
+    /* display: flex;
+    align-items: center; */
+    
+    
+   
+}
+
+.notes-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 35px;
+    /* align-items: start; */
+    /* justify-content: center; */
+    /* background-color: blueviolet; */
+    width: 326px;
+}
+.notes-right h5{
+    padding: 20px 0;
+    font-weight: lighter;
+    /* font-stretch: 150px; */
+
+}

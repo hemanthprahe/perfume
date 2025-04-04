@@ -1,0 +1,72 @@
+.subscribenewslettersection{
+    background-color:  #E2E2E2;;
+    /* height: 100vh; */
+    padding:50px 0 ;
+}
+.subscribe-arrow{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* justify-content: space-between; */
+    gap: 250px;
+}
+.subscribe-section{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: orange; */
+}
+.subscribe-left h1{
+    /* font-size: 30px; */
+    font-family: Bona Nova;
+font-weight: 700;
+font-size: 65px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.subscribe-right img{
+    width: 534px;
+    height: 394px;
+    border-radius: 187px;
+    
+}
+.subscribe-left{
+    width: 639px;
+height: 312px;
+display: flex;
+flex-direction: column;
+row-gap: 60px;
+/* background-color: white; */
+/* align-items: center; */
+/* justify-content: end; */
+/* align-items: center; */
+padding: 50px 0;
+
+}
+.subscribe-arrow h3{
+    font-family: Sofia Sans;
+font-weight: 400;
+font-size: 28px;
+line-height: 100%;
+letter-spacing: 0%;
+
+
+}
+/* .subscribe-left p{
+    position: relative;
+}
+
+.subscribe-left p::after{
+    position: absolute;
+    background-color: black;
+    height: 2px;
+    width: 575px;
+    content: "";
+} */
+.sub-hr hr{
+    width: 580px;
+}
+.subscribe-left h3 i{
+    /* font-weight: lighter; */
+    opacity: 0.7;
+}

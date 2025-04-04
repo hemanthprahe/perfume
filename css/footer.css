@@ -1,0 +1,30 @@
+.footer-section{
+    background-color:black;
+    color:white;
+}
+hr{
+    width: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    line-height: 50px;
+}
+.footer h3{
+    /* padding-top: 20px; */
+}
+.foot-lb{
+    padding-top: 20px;
+}
+
+.footer-hr hr{
+    width: 1700px;
+    /* padding-bottom: 40px; */
+}
+
+.footer-copy{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}

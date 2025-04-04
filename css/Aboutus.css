@@ -1,0 +1,49 @@
+.about{
+    background-color: black;
+}
+
+
+.abtrightus h1{
+    color: white;
+    font-size: 60px;
+    
+}
+.aboutus-right{
+   padding: 60px 0; 
+}
+
+
+.about-us-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+
+}
+.abtrightus p{
+    position: relative;
+}
+.abtrightus p::after{
+    position: absolute;
+    width: 180px;
+    height: 3px;
+    content: "";
+    background-color: white;
+    top: 20px;
+}
+.abtlorem{
+     color: white;
+     padding: 10px 0 0 0;
+     font-size: 25px;
+     line-height: 30px;
+}
+.rightlorembtn{
+    padding: 50px 0;
+}
+.morebtn{
+    padding: 50px 0;
+}
+.morebtn button{
+    padding: 20px 40px;
+    font-weight: bold;
+    font-size: 25px;
+}

@@ -1,0 +1,79 @@
+.hero-class{
+    display: flex;
+    /* align-items: center;*/
+    justify-content: space-between; 
+    /* gap: 169px; */
+    padding:80px 0;
+}
+.hero-image{
+    /* background-color: yellow; */
+}
+.hero-image img{
+    width: 485px;
+    
+height: 561px;
+border-radius: 34px;
+
+
+}
+
+.hero-content{
+    /* width: 734px; */
+    width: 60%;
+height: 408px;
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+
+/* align-items: center; */
+gap: 40px;
+padding: 76.5px 0 76.5px 0;
+/* background-color: orange; */
+
+}
+.hero-h3{
+    font-family: Bona Nova;
+font-weight: 800px;
+font-size: 30px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.hero-h1{
+    font-family: Bona Nova;
+font-weight: 800px;
+font-size: 47px;
+/* line-height: 100%; */
+letter-spacing: 29%;
+/* width: 734px; */
+width: 900px;
+height: 146px;
+/* background-color: blueviolet; */
+
+}
+
+.hero-h5{
+    font-family: Sofia Sans;
+font-weight: 500px;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+width: 734px;
+height: 72px;
+
+}
+/* .hero-btn{
+ 
+
+
+} */
+
+.hero-btn button{
+color: #FFFFFF;
+background-color: black;
+border:0px;
+/* border: 1px black; */
+padding: 20px 80px;
+border-radius: 15px;
+font-size: 20px;
+}
